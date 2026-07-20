@@ -1,0 +1,27 @@
+{
+  "title": "INSIGHT+",
+  "slug": "insight-plus",
+  "type": "platform",
+  "tag": "Workforce analytics",
+  "summary": "Integrated Network Solutions in Government Hiring Trends brings federal personnel, job-posting, occupational, geographic, and institutional data into a common analytic environment.",
+  "body_html": "<p>INSIGHT+ transforms fragmented federal workforce data into a documented, extensible infrastructure for research, teaching, and evidence-based workforce strategy.</p><p>The platform integrates federal personnel and hiring data with occupational classifications, labor-market measures, geographic context, and institutional attributes. Researchers can examine patterns across agencies, occupations, places, time, and career stages rather than relying on isolated snapshots.</p>",
+  "topics": [
+    "workforce",
+    "technology",
+    "data"
+  ],
+  "methods": [
+    "Administrative records",
+    "Job postings",
+    "Data integration",
+    "Visualization"
+  ],
+  "status": "Active",
+  "featured_home": true,
+  "home_style": "insight",
+  "home_link": "/insight/",
+  "home_link_label": "Enter INSIGHT+",
+  "show_on_research": false,
+  "sort_order": 10,
+  "published": true
+}

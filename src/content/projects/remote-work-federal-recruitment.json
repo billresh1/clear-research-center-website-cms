@@ -1,0 +1,23 @@
+{
+  "title": "Remote work and federal recruitment",
+  "slug": "remote-work-federal-recruitment",
+  "type": "research",
+  "tag": "Future of work",
+  "summary": "Whether remote eligibility changes the size, geography, composition, and quality of applicant pools—and how workplace flexibility functions as a labor-market amenity.",
+  "body_html": "<p>This project studies whether remote eligibility changes the size, geography, composition, and quality of federal applicant pools.</p><p>It treats workplace flexibility as a labor-market amenity and links job-posting text, application outcomes, geography, and organizational context.</p>",
+  "topics": [
+    "workforce",
+    "technology"
+  ],
+  "methods": [
+    "Job-posting text",
+    "Applications",
+    "Geographic matching"
+  ],
+  "status": "Active",
+  "featured_home": false,
+  "show_on_research": true,
+  "sort_order": 110,
+  "published": true,
+  "anchor_id": "remote-work"
+}

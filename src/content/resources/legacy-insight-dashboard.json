@@ -1,0 +1,14 @@
+{
+  "title": "Legacy INSIGHT+ dashboard",
+  "slug": "legacy-insight-dashboard",
+  "type": "Legacy platform",
+  "summary": "The USC-hosted interactive dashboard remains available while the GSU deployment is completed.",
+  "url": "https://clear.usc.edu/insight-dashboard",
+  "link_label": "Open legacy dashboard",
+  "topics": [
+    "workforce",
+    "data"
+  ],
+  "sort_order": 50,
+  "published": true
+}

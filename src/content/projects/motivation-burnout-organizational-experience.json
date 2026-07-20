@@ -1,0 +1,23 @@
+{
+  "title": "Motivation, burnout, and organizational experience",
+  "slug": "motivation-burnout-organizational-experience",
+  "type": "research",
+  "tag": "Behavioral public administration",
+  "summary": "How emotional labor, workplace messages, crisis conditions, leadership, and institutional procedures shape public employee attitudes and behavior.",
+  "body_html": "<p>This research program studies how emotional labor, workplace messages, crisis conditions, leadership, and institutional procedures shape public employee attitudes and behavior.</p><p>It combines experiments, surveys, and mixed methods to connect individual experience to organizational design.</p>",
+  "topics": [
+    "behavior",
+    "workforce"
+  ],
+  "methods": [
+    "Experiments",
+    "Surveys",
+    "Mixed methods"
+  ],
+  "status": "Active",
+  "featured_home": false,
+  "show_on_research": true,
+  "sort_order": 130,
+  "published": true,
+  "anchor_id": "behavioral"
+}

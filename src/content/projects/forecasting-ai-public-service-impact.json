@@ -1,0 +1,26 @@
+{
+  "title": "Forecasting AI’s public-service impact",
+  "slug": "forecasting-ai-public-service-impact",
+  "type": "platform",
+  "tag": "Strategic workforce development",
+  "summary": "The CAS framework evaluates complementarity, augmentation, and substitutivity across occupations to support responsible workforce planning.",
+  "body_html": "<p>CLEAR’s AI and public-service work uses a retrieval-augmented framework to assess how generative AI may complement, augment, or substitute for task bundles across public occupations.</p><p>The aim is to support training, workflow design, safeguards, and strategic workforce planning—not to automate personnel decisions.</p>",
+  "topics": [
+    "technology",
+    "workforce"
+  ],
+  "methods": [
+    "Retrieval-augmented generation",
+    "Occupational analysis",
+    "Model comparison",
+    "Human validation"
+  ],
+  "status": "Active",
+  "featured_home": true,
+  "home_style": "ai",
+  "home_link": "/ai/",
+  "home_link_label": "Explore the CAS framework",
+  "show_on_research": true,
+  "sort_order": 20,
+  "published": true
+}

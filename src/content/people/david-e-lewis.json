@@ -1,0 +1,17 @@
+{
+  "name": "David E. Lewis",
+  "slug": "david-e-lewis",
+  "category": "fellow",
+  "role": "CLEAR Fellow",
+  "affiliation": "Vanderbilt University",
+  "initials": "DL",
+  "expertise": [
+    "Presidency",
+    "Administration",
+    "Public management"
+  ],
+  "summary": "Research expertise in the presidency, administration, and public management.",
+  "bio_html": "<p>David E. Lewis is part of the legacy CLEAR Fellows network, contributing expertise in the presidency, administration, and public management.</p>",
+  "sort_order": 70,
+  "published": true
+}

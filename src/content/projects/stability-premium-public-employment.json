@@ -1,0 +1,22 @@
+{
+  "title": "The stability premium in public employment",
+  "slug": "stability-premium-public-employment",
+  "type": "research",
+  "tag": "Labor-market amenities",
+  "summary": "Estimating the value workers place on federal job stability by connecting shutdown exposure, wage differentials, and applicant behavior across public and private labor markets.",
+  "body_html": "<p>This project estimates the value workers place on federal job stability by connecting shutdown exposure, public-private wage differentials, and applicant behavior.</p><p>It combines matched job postings, wage gaps, and application outcomes to measure stability as a non-wage employment amenity.</p>",
+  "topics": [
+    "workforce",
+    "institutions"
+  ],
+  "methods": [
+    "Matched job postings",
+    "Wage gaps",
+    "Applications"
+  ],
+  "status": "Development",
+  "featured_home": false,
+  "show_on_research": true,
+  "sort_order": 170,
+  "published": true
+}

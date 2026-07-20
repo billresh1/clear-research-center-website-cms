@@ -1,0 +1,16 @@
+{
+  "name": "John D. Marvel",
+  "slug": "john-d-marvel",
+  "category": "fellow",
+  "role": "CLEAR Fellow",
+  "affiliation": "American University",
+  "initials": "JM",
+  "expertise": [
+    "Organization theory",
+    "Public management"
+  ],
+  "summary": "Research expertise in organization theory and public management.",
+  "bio_html": "<p>John D. Marvel is part of the legacy CLEAR Fellows network, contributing expertise in organization theory and public management.</p>",
+  "sort_order": 90,
+  "published": true
+}

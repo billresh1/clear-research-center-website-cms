@@ -1,0 +1,19 @@
+{
+  "name": "New person",
+  "slug": "",
+  "category": "fellow",
+  "role": "CLEAR Fellow",
+  "title": "",
+  "affiliation": "",
+  "initials": "",
+  "photo": "",
+  "photo_alt": "",
+  "email": "",
+  "profile_url": "",
+  "expertise": [],
+  "summary": "",
+  "bio_html": "<p>Add a short biography.</p>",
+  "sort_order": 500,
+  "featured": false,
+  "published": true
+}

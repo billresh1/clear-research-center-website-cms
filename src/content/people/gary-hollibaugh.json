@@ -1,0 +1,16 @@
+{
+  "name": "Gary Hollibaugh",
+  "slug": "gary-hollibaugh",
+  "category": "fellow",
+  "role": "CLEAR Fellow",
+  "affiliation": "University of Pittsburgh",
+  "initials": "GH",
+  "expertise": [
+    "Bureaucratic politics",
+    "Methodology"
+  ],
+  "summary": "Research expertise in bureaucratic politics and methodology.",
+  "bio_html": "<p>Gary Hollibaugh is part of the legacy CLEAR Fellows network, contributing expertise in bureaucratic politics and methodology.</p>",
+  "sort_order": 50,
+  "published": true
+}

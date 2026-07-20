@@ -1,0 +1,23 @@
+{
+  "title": "Complementarity, augmentation, and substitutivity",
+  "slug": "complementarity-augmentation-substitutivity",
+  "type": "research",
+  "tag": "AI and occupations",
+  "summary": "A retrieval-augmented modeling framework for evaluating how generative AI may change tasks, skills, and occupational resilience in government.",
+  "body_html": "<p>The CAS framework evaluates complementarity, augmentation, and substitutivity across public occupations using occupational and AI capability knowledge bases.</p><p>Outputs support comparative research and responsible workforce planning while recognizing that tasks are bundled and public accountability cannot always be delegated.</p>",
+  "topics": [
+    "technology",
+    "workforce"
+  ],
+  "methods": [
+    "RAG-LLM",
+    "Occupational data",
+    "Model scoring",
+    "Validation"
+  ],
+  "status": "Active",
+  "featured_home": false,
+  "show_on_research": true,
+  "sort_order": 160,
+  "published": true
+}

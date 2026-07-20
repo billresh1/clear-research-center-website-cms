@@ -1,0 +1,17 @@
+{
+  "name": "Kayla Schwoerer",
+  "slug": "kayla-schwoerer",
+  "category": "fellow",
+  "role": "CLEAR Fellow",
+  "affiliation": "University at Albany, SUNY",
+  "initials": "KS",
+  "expertise": [
+    "Digital government",
+    "Design",
+    "Data"
+  ],
+  "summary": "Research expertise in digital government, design, and data.",
+  "bio_html": "<p>Kayla Schwoerer is part of the legacy CLEAR Fellows network, contributing expertise in digital government, design, and data.</p>",
+  "sort_order": 130,
+  "published": true
+}

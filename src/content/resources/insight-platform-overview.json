@@ -1,0 +1,14 @@
+{
+  "title": "INSIGHT+ platform overview",
+  "slug": "insight-platform-overview",
+  "type": "Research platform",
+  "summary": "An overview of CLEAR’s integrated federal workforce analytics environment and its research uses.",
+  "url": "/insight/",
+  "link_label": "Explore INSIGHT+",
+  "topics": [
+    "workforce",
+    "data"
+  ],
+  "sort_order": 20,
+  "published": true
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Weijie Wang",
+  "slug": "weijie-wang",
+  "category": "fellow",
+  "role": "CLEAR Fellow",
+  "affiliation": "University of Missouri",
+  "initials": "WW",
+  "expertise": [
+    "Performance",
+    "Personnel",
+    "Collaboration"
+  ],
+  "summary": "Research expertise in performance, personnel, and collaboration.",
+  "bio_html": "<p>Weijie Wang is part of the legacy CLEAR Fellows network, contributing expertise in performance, personnel, and collaboration.</p>",
+  "sort_order": 150,
+  "published": true
+}

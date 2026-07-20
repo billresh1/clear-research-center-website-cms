@@ -1,0 +1,16 @@
+{
+  "name": "Elizabeth Bell",
+  "slug": "elizabeth-bell",
+  "category": "fellow",
+  "role": "CLEAR Fellow",
+  "affiliation": "University of Texas at Austin",
+  "initials": "EB",
+  "expertise": [
+    "Social equity",
+    "Public management"
+  ],
+  "summary": "Research expertise in social equity and public management.",
+  "bio_html": "<p>Elizabeth Bell is part of the legacy CLEAR Fellows network, contributing expertise in social equity and public management.</p>",
+  "sort_order": 20,
+  "published": true
+}

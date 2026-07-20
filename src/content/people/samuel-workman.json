@@ -1,0 +1,16 @@
+{
+  "name": "Samuel Workman",
+  "slug": "samuel-workman",
+  "category": "fellow",
+  "role": "CLEAR Fellow",
+  "affiliation": "West Virginia University",
+  "initials": "SW",
+  "expertise": [
+    "Policy data infrastructure",
+    "Bureaucracy"
+  ],
+  "summary": "Research expertise in policy data infrastructure and bureaucracy.",
+  "bio_html": "<p>Samuel Workman is part of the legacy CLEAR Fellows network, contributing expertise in policy data infrastructure and bureaucracy.</p>",
+  "sort_order": 170,
+  "published": true
+}

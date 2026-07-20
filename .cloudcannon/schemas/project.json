@@ -1,0 +1,18 @@
+{
+  "title": "New project",
+  "slug": "",
+  "type": "research",
+  "tag": "Research program",
+  "summary": "",
+  "body_html": "<p>Describe the project.</p>",
+  "topics": [],
+  "methods": [],
+  "status": "Active",
+  "featured_home": false,
+  "home_style": "",
+  "home_link": "",
+  "home_link_label": "View project",
+  "show_on_research": true,
+  "sort_order": 500,
+  "published": true
+}

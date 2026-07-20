@@ -1,0 +1,17 @@
+{
+  "name": "Jason Coupet",
+  "slug": "jason-coupet",
+  "category": "fellow",
+  "role": "CLEAR Fellow",
+  "affiliation": "Georgia State University",
+  "initials": "JC",
+  "expertise": [
+    "Strategy",
+    "Efficiency",
+    "Organizational economics"
+  ],
+  "summary": "Research expertise in strategy, efficiency, and organizational economics.",
+  "bio_html": "<p>Jason Coupet is part of the legacy CLEAR Fellows network, contributing expertise in strategy, efficiency, and organizational economics.</p>",
+  "sort_order": 40,
+  "published": true
+}

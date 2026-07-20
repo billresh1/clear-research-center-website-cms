@@ -1,0 +1,16 @@
+{
+  "name": "Michael Overton",
+  "slug": "michael-overton",
+  "category": "fellow",
+  "role": "CLEAR Fellow",
+  "affiliation": "University of Idaho",
+  "initials": "MO",
+  "expertise": [
+    "Administrative informatics",
+    "Data science"
+  ],
+  "summary": "Research expertise in administrative informatics and data science.",
+  "bio_html": "<p>Michael Overton is part of the legacy CLEAR Fellows network, contributing expertise in administrative informatics and data science.</p>",
+  "sort_order": 110,
+  "published": true
+}

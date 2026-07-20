@@ -1,0 +1,23 @@
+{
+  "title": "Contracts, appointments, and multi-principal governance",
+  "slug": "contracts-appointments-multi-principal-governance",
+  "type": "research",
+  "tag": "Political economy",
+  "summary": "How presidents, Congress, agencies, and markets shape federal appointments, vacancies, procurement, contractor relationships, and implementation capacity.",
+  "body_html": "<p>This research examines how presidents, Congress, agencies, and markets jointly shape federal appointments, vacancies, procurement, contractor relationships, and implementation capacity.</p><p>The program connects political incentives to administrative and market arrangements across agencies, states, and time.</p>",
+  "topics": [
+    "institutions",
+    "workforce"
+  ],
+  "methods": [
+    "Federal procurement",
+    "Political appointments",
+    "Panel analysis"
+  ],
+  "status": "Active",
+  "featured_home": false,
+  "show_on_research": true,
+  "sort_order": 120,
+  "published": true,
+  "anchor_id": "political-economy"
+}

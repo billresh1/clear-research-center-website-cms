@@ -1,0 +1,403 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/CloudCannon/configuration-types/main/cloudcannon-config.schema.json
+source: src
+base_url: /
+timezone: America/New_York
+
+paths:
+  uploads: assets/images
+  static: ''
+
+collections_config:
+  pages:
+    path: pages
+    glob: "*.html"
+    name: Main Pages
+    singular_name: Page
+    icon: wysiwyg
+    output: true
+    url: "{permalink}"
+    description: Edit the principal page sections directly on a visual preview.
+    disable_add: true
+    _enabled_editors:
+      - visual
+    preview:
+      text:
+        - key: title
+      subtext:
+        - key: description
+
+  people:
+    path: content/people
+    name: People
+    singular_name: Person
+    icon: groups
+    output: true
+    url: /people/[slug]/
+    description: Director, fellows, students, and other members of the CLEAR network.
+    _enabled_editors:
+      - visual
+      - data
+    sort:
+      key: sort_order
+      order: ascending
+    create:
+      path: "[relative_base_path]/{name|slugify}.json"
+    schemas:
+      default:
+        path: /.cloudcannon/schemas/person.json
+        name: Person
+        icon: person_add
+    preview:
+      text:
+        - key: name
+      subtext:
+        - key: affiliation
+      image:
+        - key: photo
+      icon: person
+
+  partners:
+    path: content/partners
+    name: Partners
+    singular_name: Partner
+    icon: handshake
+    disable_url: true
+    description: Institutional and project partners shown on the People & Partners page.
+    _enabled_editors:
+      - data
+    sort:
+      key: sort_order
+      order: ascending
+    create:
+      path: "[relative_base_path]/{name|slugify}.json"
+    schemas:
+      default:
+        path: /.cloudcannon/schemas/partner.json
+        name: Partner
+        icon: handshake
+    preview:
+      text:
+        - key: name
+      subtext:
+        - key: summary
+
+  projects:
+    path: content/projects
+    name: Projects
+    singular_name: Project
+    icon: science
+    output: true
+    url: /projects/[slug]/
+    description: Research platforms, programs, networks, and studies. Featured records also appear on the homepage.
+    _enabled_editors:
+      - visual
+      - data
+    sort:
+      key: sort_order
+      order: ascending
+    create:
+      path: "[relative_base_path]/{title|slugify}.json"
+    schemas:
+      default:
+        path: /.cloudcannon/schemas/project.json
+        name: Project
+        icon: science
+    preview:
+      text:
+        - key: title
+      subtext:
+        - key: summary
+      icon: science
+
+  publications:
+    path: content/publications
+    name: Publications
+    singular_name: Publication
+    icon: menu_book
+    disable_url: true
+    description: Selected scholarship. Records automatically sort into publication lists.
+    _enabled_editors:
+      - data
+    sort:
+      key: year
+      order: descending
+    create:
+      path: "[relative_base_path]/{title|slugify}.json"
+    schemas:
+      default:
+        path: /.cloudcannon/schemas/publication.json
+        name: Publication
+        icon: article
+    preview:
+      text:
+        - key: title
+      subtext:
+        - key: authors
+      icon: article
+
+  news:
+    path: content/news
+    name: News
+    singular_name: News Item
+    icon: campaign
+    output: true
+    url: /news/[slug]/
+    description: Center announcements, project updates, events, and public-facing developments.
+    _enabled_editors:
+      - visual
+      - data
+    sort:
+      key: date
+      order: descending
+    create:
+      path: "[relative_base_path]/{title|slugify}.json"
+    schemas:
+      default:
+        path: /.cloudcannon/schemas/news.json
+        name: News Item
+        icon: campaign
+    preview:
+      text:
+        - key: title
+      subtext:
+        - key: date
+      image:
+        - key: image
+
+  resources:
+    path: content/resources
+    name: Resources
+    singular_name: Resource
+    icon: folder_open
+    disable_url: true
+    description: Data documentation, reports, project materials, links, and archives.
+    _enabled_editors:
+      - data
+    sort:
+      key: sort_order
+      order: ascending
+    create:
+      path: "[relative_base_path]/{title|slugify}.json"
+    schemas:
+      default:
+        path: /.cloudcannon/schemas/resource.json
+        name: Resource
+        icon: description
+    preview:
+      text:
+        - key: title
+      subtext:
+        - key: type
+      icon: description
+
+  episodes:
+    path: content/episodes
+    name: BookMarked Episodes
+    singular_name: Episode
+    icon: video_library
+    output: true
+    url: /bookmarked/[slug]/
+    description: BookMarked conversations and archive links.
+    _enabled_editors:
+      - visual
+      - data
+    sort:
+      key: date
+      order: descending
+    create:
+      path: "[relative_base_path]/{guest|slugify}-{book_title|slugify}.json"
+    schemas:
+      default:
+        path: /.cloudcannon/schemas/episode.json
+        name: Episode
+        icon: video_call
+    preview:
+      text:
+        - key: title
+      subtext:
+        - key: book_title
+      icon: video_library
+
+  site_data:
+    path: data
+    name: Site Settings & Labels
+    singular_name: Data File
+    icon: settings
+    disable_url: true
+    description: Institution details, navigation, contact information, and generated section labels.
+    disable_add: true
+    _enabled_editors:
+      - data
+    preview:
+      text:
+        - key: site_name
+        - key: home_platforms_heading
+      icon: settings
+
+collection_groups:
+  - heading: Website
+    collections:
+      - pages
+      - news
+      - resources
+  - heading: Research
+    collections:
+      - projects
+      - publications
+  - heading: Community
+    collections:
+      - people
+      - partners
+      - episodes
+  - heading: Administration
+    collections:
+      - site_data
+
+_select_data:
+  person_categories:
+    - director
+    - fellow
+    - student
+    - affiliate
+    - alumni
+  project_types:
+    - platform
+    - network
+    - research
+    - program
+  project_statuses:
+    - Active
+    - Development
+    - Complete
+    - Archived
+  topic_options:
+    - workforce
+    - institutions
+    - technology
+    - behavior
+    - data
+  home_styles:
+    - insight
+    - ai
+    - arrc
+
+_inputs:
+  title:
+    type: text
+    label: Title
+  name:
+    type: text
+    label: Name
+  slug:
+    type: text
+    label: URL slug
+    comment: Leave blank when creating a record; the filename becomes the URL slug.
+  description:
+    type: textarea
+    label: Search description
+  summary:
+    type: textarea
+    label: Short summary
+    options:
+      show_count: true
+  body_html:
+    type: html
+    label: Main text
+    options:
+      bold: true
+      italic: true
+      link: true
+      bulletedlist: true
+      numberedlist: true
+  bio_html:
+    type: html
+    label: Biography
+    options:
+      bold: true
+      italic: true
+      link: true
+      bulletedlist: true
+      numberedlist: true
+  date:
+    type: date
+  year:
+    type: number
+  sort_order:
+    type: number
+    label: Sort order
+    comment: Lower numbers appear first.
+  published:
+    type: switch
+    label: Published
+  featured:
+    type: switch
+  featured_home:
+    type: switch
+    label: Feature on homepage
+  show_on_research:
+    type: switch
+    label: Show on Research page
+  image:
+    type: image
+  photo:
+    type: image
+  photo_alt:
+    type: text
+    label: Photo alternative text
+  image_alt:
+    type: text
+    label: Image alternative text
+  url:
+    type: url
+  external_url:
+    type: url
+  profile_url:
+    type: url
+  email:
+    type: text
+  category:
+    type: select
+    options:
+      values: _select_data.person_categories
+  type:
+    type: text
+  status:
+    type: select
+    options:
+      values: _select_data.project_statuses
+  topics:
+    type: multiselect
+    options:
+      values: _select_data.topic_options
+  methods:
+    type: array
+  expertise:
+    type: array
+  home_style:
+    type: select
+    options:
+      allow_empty: true
+      values: _select_data.home_styles
+
+_editables:
+  text:
+    bold: true
+    italic: true
+    link: true
+    bulletedlist: true
+    numberedlist: true
+  content:
+    allow_custom_markup: true
+    remove_custom_markup: false
+    bold: true
+    italic: true
+    link: true
+    bulletedlist: true
+    numberedlist: true
+    image: true
+    table: true
+
+commit_templates:
+  - label: Content update
+    template_string: "Content: {message|trim}"
+    wrap_width: 72

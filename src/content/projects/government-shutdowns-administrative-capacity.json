@@ -1,0 +1,23 @@
+{
+  "title": "Government shutdowns and administrative capacity",
+  "slug": "government-shutdowns-administrative-capacity",
+  "type": "research",
+  "tag": "Federal workforce",
+  "summary": "How shutdown exposure changes recruitment, voluntary and involuntary separations, employee behavior, agency operations, and policy implementation.",
+  "body_html": "<p>This research program examines government shutdowns as institutional shocks to public employment and administrative capacity. It connects agency exposure to recruitment, separations, employee behavior, operations, and policy implementation.</p><p>Projects use federal personnel, hiring, job-posting, and agency data with quasi-experimental designs to estimate how disruption changes workforce outcomes.</p>",
+  "topics": [
+    "workforce",
+    "institutions"
+  ],
+  "methods": [
+    "USAJOBS / USA Staffing",
+    "OPM personnel data",
+    "Quasi-experimental designs"
+  ],
+  "status": "Active",
+  "featured_home": false,
+  "show_on_research": true,
+  "sort_order": 100,
+  "published": true,
+  "anchor_id": "shutdowns"
+}

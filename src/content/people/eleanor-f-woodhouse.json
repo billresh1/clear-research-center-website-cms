@@ -1,0 +1,16 @@
+{
+  "name": "Eleanor F. Woodhouse",
+  "slug": "eleanor-f-woodhouse",
+  "category": "fellow",
+  "role": "CLEAR Fellow",
+  "affiliation": "University College London",
+  "initials": "EW",
+  "expertise": [
+    "Delegation",
+    "Comparative governance"
+  ],
+  "summary": "Research expertise in delegation and comparative governance.",
+  "bio_html": "<p>Eleanor F. Woodhouse is part of the legacy CLEAR Fellows network, contributing expertise in delegation and comparative governance.</p>",
+  "sort_order": 160,
+  "published": true
+}

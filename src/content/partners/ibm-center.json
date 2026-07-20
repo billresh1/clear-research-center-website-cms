@@ -1,0 +1,10 @@
+{
+  "name": "IBM Center for the Business of Government",
+  "slug": "ibm-center",
+  "summary": "A research-to-practice partner supporting work on artificial intelligence, public-sector labor markets, and the management challenges facing government.",
+  "url": "https://www.businessofgovernment.org/",
+  "link_label": "Visit the IBM Center",
+  "sort_order": 30,
+  "featured": true,
+  "published": true
+}

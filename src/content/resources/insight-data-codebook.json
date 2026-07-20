@@ -1,0 +1,14 @@
+{
+  "title": "INSIGHT+ data and codebook",
+  "slug": "insight-data-codebook",
+  "type": "Data documentation",
+  "summary": "Data architecture, source systems, record structure, fields, governance, and access notes for the INSIGHT+ research infrastructure.",
+  "url": "/insight/data/",
+  "link_label": "Open the codebook",
+  "topics": [
+    "workforce",
+    "data"
+  ],
+  "sort_order": 10,
+  "published": true
+}

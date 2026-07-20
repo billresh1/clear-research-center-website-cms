@@ -1,0 +1,13 @@
+{
+  "title": "BookMarked legacy archive",
+  "slug": "bookmarked-legacy-archive",
+  "type": "Video and event archive",
+  "summary": "Past conversations with authors about governance, democracy, technology, public management, and civic leadership.",
+  "url": "https://clear.usc.edu/bookmarked",
+  "link_label": "Open legacy archive",
+  "topics": [
+    "civic-leadership"
+  ],
+  "sort_order": 60,
+  "published": true
+}

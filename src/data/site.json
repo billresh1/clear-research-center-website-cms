@@ -1,0 +1,106 @@
+{
+  "site_name": "CLEAR at Georgia State University",
+  "organization_name": "Civic Leadership Education and Research (CLEAR) Initiative",
+  "short_name": "CLEAR",
+  "tagline": "Research and experiential learning for public service",
+  "description": "CLEAR develops rigorous, useful research on public-service labor markets, institutions, technology, and civic leadership.",
+  "site_url": "https://clearresearchcenter.org",
+  "language": "en",
+  "institution": "Georgia State University",
+  "school": "Andrew Young School of Policy Studies",
+  "department": "Department of Public Management and Policy",
+  "institution_url": "https://www.gsu.edu/",
+  "school_url": "https://aysps.gsu.edu/",
+  "department_url": "https://aysps.gsu.edu/public-management-policy/",
+  "logo": "/assets/images/aysps-logo.png",
+  "default_social_image": "/assets/images/atlanta-skyline.jpg",
+  "email": "wresh@gsu.edu",
+  "phone": "404-413-0180",
+  "phone_href": "+14044130180",
+  "address_html": "Room 456, Andrew Young School of Policy Studies<br>Georgia State University<br>14 Marietta St. NW<br>Atlanta, GA 30303",
+  "linkedin_url": "https://www.linkedin.com/company/clear-initiative",
+  "scholar_url": "https://scholar.google.com/citations?hl=en&user=dcJoFmsAAAAJ",
+  "legacy_site_url": "https://clear.usc.edu/",
+  "navigation": [
+    {
+      "key": "about",
+      "label": "About",
+      "url": "/about/"
+    },
+    {
+      "key": "research",
+      "label": "Research",
+      "url": "/research/"
+    },
+    {
+      "key": "insight",
+      "label": "INSIGHT+",
+      "url": "/insight/"
+    },
+    {
+      "key": "ai",
+      "label": "AI & Workforce",
+      "url": "/ai/"
+    },
+    {
+      "key": "people",
+      "label": "People & Partners",
+      "url": "/people/"
+    },
+    {
+      "key": "bookmarked",
+      "label": "BookMarked",
+      "url": "/bookmarked/"
+    },
+    {
+      "key": "contact",
+      "label": "Contact",
+      "url": "/contact/",
+      "contact": true
+    }
+  ],
+  "footer_explore": [
+    {
+      "label": "About CLEAR",
+      "url": "/about/"
+    },
+    {
+      "label": "Research",
+      "url": "/research/"
+    },
+    {
+      "label": "Projects",
+      "url": "/projects/"
+    },
+    {
+      "label": "Publications",
+      "url": "/publications/"
+    },
+    {
+      "label": "News",
+      "url": "/news/"
+    }
+  ],
+  "footer_platforms": [
+    {
+      "label": "INSIGHT+",
+      "url": "/insight/"
+    },
+    {
+      "label": "Data & codebook",
+      "url": "/insight/data/"
+    },
+    {
+      "label": "AI & workforce",
+      "url": "/ai/"
+    },
+    {
+      "label": "ARRC",
+      "url": "/research/#arrc"
+    },
+    {
+      "label": "Resources",
+      "url": "/resources/"
+    }
+  ]
+}

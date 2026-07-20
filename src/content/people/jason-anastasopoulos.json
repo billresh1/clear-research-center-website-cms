@@ -1,0 +1,17 @@
+{
+  "name": "Jason Anastasopoulos",
+  "slug": "jason-anastasopoulos",
+  "category": "fellow",
+  "role": "CLEAR Fellow",
+  "affiliation": "University of Georgia",
+  "initials": "JA",
+  "expertise": [
+    "Technology",
+    "Bureaucracy",
+    "Methods"
+  ],
+  "summary": "Research expertise in technology, bureaucracy, and quantitative methods.",
+  "bio_html": "<p>Jason Anastasopoulos is part of the legacy CLEAR Fellows network, contributing expertise in technology, bureaucracy, and methods.</p>",
+  "sort_order": 10,
+  "published": true
+}

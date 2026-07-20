@@ -1,0 +1,25 @@
+{
+  "name": "William G. Resh",
+  "slug": "william-g-resh",
+  "category": "director",
+  "role": "Director",
+  "title": "Professor and Chair, Department of Public Management and Policy",
+  "affiliation": "Georgia State University, Andrew Young School of Policy Studies",
+  "initials": "WR",
+  "photo": "/assets/images/william-resh.jpg",
+  "photo_alt": "William G. Resh",
+  "email": "wresh@gsu.edu",
+  "profile_url": "https://aysps.gsu.edu/profile/william-g-resh/",
+  "expertise": [
+    "Executive politics",
+    "Federal workforce",
+    "Civil-service institutions",
+    "Administrative presidency",
+    "AI and work"
+  ],
+  "summary": "Resh directs CLEAR’s integrated research and education portfolio, including INSIGHT+, AI workforce modeling, research on federal workforce shocks and institutions, student collaboration, and the Accountability and Reform Research Consortium.",
+  "bio_html": "<p>William G. Resh is a scholar of executive and bureaucratic politics, public personnel policy, civil-service systems, public management, and the U.S. presidency. His research examines how political institutions and administrative arrangements shape expertise, performance, accountability, and the public workforce.</p><p>At Georgia State University, he serves as professor and chair of the Department of Public Management and Policy and directs CLEAR’s research, data, education, and partnership portfolio.</p>",
+  "sort_order": 0,
+  "featured": true,
+  "published": true
+}

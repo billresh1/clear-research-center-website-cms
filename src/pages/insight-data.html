@@ -1,0 +1,56 @@
+---
+title: "INSIGHT+ Data & Codebook | CLEAR at Georgia State University"
+description: "Review the data architecture, source systems, record structure, fields, stewardship, and access principles behind the INSIGHT+ federal workforce research infrastructure."
+permalink: "/insight/data/"
+nav_key: "insight"
+body_class: ""
+---
+<main id="main-content">
+<section class="page-hero" data-editable="source" data-key="section-1" data-path="/src/pages/insight-data.html">
+<div class="container page-hero__inner"><div><ol class="breadcrumbs"><li><a href="/index.html">Home</a></li><li><a href="/insight/">INSIGHT+</a></li><li>Data &amp; codebook</li></ol><span class="eyebrow">Technical documentation</span><h1>INSIGHT+ data and codebook.</h1></div><p class="page-hero__aside">A high-level guide to sources, transformations, fields, linkages, access, and the quality controls behind the platform.</p></div>
+</section>
+<section class="section" data-editable="source" data-key="section-2" data-path="/src/pages/insight-data.html">
+<div class="container media-split">
+<div class="media-split__copy reveal"><span class="eyebrow">Architecture</span><h2>Built to connect records that were never designed to work together.</h2><p class="lead">INSIGHT+ uses an extract–transform–load pipeline to harmonize federal personnel and hiring data with occupational, economic, geographic, and institutional measures.</p><p>Raw sources retain their provenance. Standardized identifiers and derived variables are documented so that users can distinguish reported fields from transformations, classifications, model outputs, and linked context.</p><div class="callout"><strong>Documentation status.</strong> This prototype describes the platform at a public-facing level. Versioned schema files, source-specific data dictionaries, refresh dates, and disclosure rules should be attached to the production GSU deployment.</div></div>
+<div class="card reveal"><span class="card__tag">Core principles</span><h3>Reproducible by design</h3><ul><li>Preserve source provenance and extraction dates.</li><li>Separate raw, standardized, linked, and analytic layers.</li><li>Use durable agency, occupation, location, and time identifiers.</li><li>Document machine-assisted classifications and validation.</li><li>Apply access controls appropriate to each source.</li></ul></div>
+</div>
+</section>
+<section class="section section--surface" data-editable="source" data-key="section-3" data-path="/src/pages/insight-data.html">
+<div class="container">
+<div class="section-heading reveal"><div><span class="eyebrow">Source families</span><h2>What the platform brings together.</h2></div><p class="section-heading__copy">Specific variables and periods vary by source and access level. The production codebook should record coverage, refresh cadence, restrictions, and transformations for every table.</p></div>
+<div class="data-table-wrap reveal"><table class="data-table"><thead><tr><th>Source family</th><th>Representative content</th><th>Primary uses</th><th>Typical unit</th></tr></thead><tbody>
+<tr><td><strong>Federal personnel</strong></td><td>Agency, occupation, grade, duty station, appointment, accession, separation, demographic and career attributes</td><td>Workforce stocks, flows, mobility, retention, composition</td><td>Employee-event or employee-period</td></tr>
+<tr><td><strong>Federal job postings</strong></td><td>Announcement text, occupation, agency, location, salary, work schedule, remote/telework language, dates and outcomes</td><td>Recruitment demand, applicant response, skills, remote work</td><td>Announcement or opportunity</td></tr>
+<tr><td><strong>Occupational systems</strong></td><td>Federal series, SOC crosswalks, tasks, knowledge, skills and abilities</td><td>Cross-sector matching, task analysis, AI modeling</td><td>Occupation or task</td></tr>
+<tr><td><strong>Labor-market context</strong></td><td>Employment, wages, sector comparisons, local and occupational conditions</td><td>Recruitment competition, wage gaps, stability premium</td><td>Occupation-place-period</td></tr>
+<tr><td><strong>Institutional measures</strong></td><td>Agency structure, independence, ideology, shutdown exposure, political context</td><td>Policy evaluation, heterogeneity, institutional explanation</td><td>Agency-period</td></tr>
+<tr><td><strong>Derived classifications</strong></td><td>Job-text labels, task clusters, AI CAS scores, harmonized locations and occupations</td><td>Search, comparison, prediction, scenario analysis</td><td>Record, occupation or task</td></tr>
+</tbody></table></div>
+</div>
+</section>
+<section class="section" data-editable="source" data-key="section-4" data-path="/src/pages/insight-data.html">
+<div class="container">
+<div class="section-heading reveal"><div><span class="eyebrow">Representative fields</span><h2>A compact public codebook.</h2></div><p class="section-heading__copy">Names below illustrate a consistent semantic layer; they are not a substitute for the version-specific machine-readable schema.</p></div>
+<div class="data-table-wrap reveal"><table class="data-table"><thead><tr><th>Field</th><th>Description</th><th>Type</th><th>Notes</th></tr></thead><tbody>
+<tr><td><code>agency_id</code></td><td>Stable identifier for agency or organizational unit</td><td>String</td><td>Crosswalked across source naming conventions and reorganizations</td></tr>
+<tr><td><code>occupation_id</code></td><td>Federal occupational series with crosswalk to broader classifications</td><td>String</td><td>Can be linked to SOC and task/skill systems</td></tr>
+<tr><td><code>duty_station</code></td><td>Standardized work location</td><td>Geography</td><td>May include city, county, state, commuting zone and metro status</td></tr>
+<tr><td><code>event_date</code></td><td>Date associated with an accession, separation, posting or other event</td><td>Date</td><td>Supports monthly, quarterly and annual aggregation</td></tr>
+<tr><td><code>remote_status</code></td><td>Structured classification of remote or telework eligibility</td><td>Category</td><td>Derived from structured fields and announcement text; versioned</td></tr>
+<tr><td><code>shutdown_exposure</code></td><td>Agency-level treatment or intensity measure for a shutdown period</td><td>Numeric / category</td><td>Definition depends on study design and data source</td></tr>
+<tr><td><code>cas_complementarity</code></td><td>Estimated degree to which AI capabilities complement an occupation</td><td>1–5 score</td><td>Model version, prompt, retrieval corpus and justification retained</td></tr>
+<tr><td><code>cas_augmentation</code></td><td>Estimated potential for AI to improve or extend human task performance</td><td>1–5 score</td><td>Interpreted jointly with complementarity and substitutivity</td></tr>
+<tr><td><code>cas_substitutivity</code></td><td>Estimated potential for AI to perform tasks with reduced human input</td><td>1–5 score</td><td>Scenario indicator, not a deterministic forecast of job loss</td></tr>
+</tbody></table></div>
+</div>
+</section>
+<section class="section section--blue" data-editable="source" data-key="section-5" data-path="/src/pages/insight-data.html">
+<div class="container">
+<div class="section-heading reveal"><div><span class="eyebrow">Quality and governance</span><h2>Analytical value depends on disciplined stewardship.</h2></div><p class="section-heading__copy">The platform should make uncertainty, model dependence, missingness, revisions, and access constraints visible rather than hiding them behind a dashboard.</p></div>
+<div class="card-grid card-grid--2"><article class="card reveal"><h3>Validation</h3><p>Automated range, duplication, consistency, and referential-integrity checks are paired with source-level spot checks and study-specific validation.</p></article><article class="card reveal"><h3>Version control</h3><p>Data snapshots, transformation code, schema versions, and model outputs should be tagged so published analyses can be reproduced.</p></article><article class="card reveal"><h3>Disclosure and access</h3><p>Public aggregates, restricted microdata, partner data, and licensed sources require distinct access and disclosure rules.</p></article><article class="card reveal"><h3>Responsible modeling</h3><p>Machine-learning and LLM-assisted fields retain provenance, model information, confidence or rationale, and human-review procedures.</p></article></div>
+</div>
+</section>
+<section class="section" data-editable="source" data-key="section-6" data-path="/src/pages/insight-data.html">
+<div class="container"><div class="cta-band reveal"><div class="cta-band__inner"><div><span class="eyebrow eyebrow--light">Data access</span><h2>Request a research conversation.</h2><p>Describe the question, needed unit of analysis, time period, intended use, collaborators, and any disclosure constraints. Availability depends on source permissions and project fit.</p></div><div class="button-row"><a class="button button--light" href="mailto:wresh@gsu.edu?subject=INSIGHT%2B%20data%20inquiry">Email an inquiry</a><a class="button button--outline-light" href="/insight/">Return to INSIGHT+</a></div></div></div></div>
+</section>
+</main>

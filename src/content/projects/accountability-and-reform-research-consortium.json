@@ -1,0 +1,27 @@
+{
+  "title": "Accountability and Reform Research Consortium",
+  "slug": "accountability-and-reform-research-consortium",
+  "type": "network",
+  "tag": "Collaborative research network",
+  "summary": "ARRC connects researchers and public-interest partners to document changes in government capacity, workforce expertise, communities, service delivery, and the data infrastructure needed for accountable reform.",
+  "body_html": "<p>ARRC is a multi-institutional research network designed to document and explain rapid changes in public administration while building durable data and communities of practice.</p><p>Its four pillars focus on government capacity; workforce and expertise; structural and societal impacts; and data and analytical infrastructure.</p>",
+  "topics": [
+    "institutions",
+    "workforce",
+    "data"
+  ],
+  "methods": [
+    "Research network",
+    "Shared data",
+    "Communities of practice",
+    "Public-interest partnerships"
+  ],
+  "status": "Active",
+  "featured_home": true,
+  "home_style": "arrc",
+  "home_link": "/research/#arrc",
+  "home_link_label": "Learn about the research pillars",
+  "show_on_research": false,
+  "sort_order": 30,
+  "published": true
+}

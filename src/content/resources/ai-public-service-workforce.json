@@ -1,0 +1,14 @@
+{
+  "title": "AI and public-service workforce program",
+  "slug": "ai-public-service-workforce",
+  "type": "Program guide",
+  "summary": "The CAS framework, assessment workflow, workforce-planning questions, and responsible-use principles.",
+  "url": "/ai/",
+  "link_label": "Explore AI & Workforce",
+  "topics": [
+    "technology",
+    "workforce"
+  ],
+  "sort_order": 30,
+  "published": true
+}

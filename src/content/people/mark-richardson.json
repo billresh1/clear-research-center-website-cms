@@ -1,0 +1,17 @@
+{
+  "name": "Mark Richardson",
+  "slug": "mark-richardson",
+  "category": "fellow",
+  "role": "CLEAR Fellow",
+  "affiliation": "Georgetown University",
+  "initials": "MR",
+  "expertise": [
+    "Presidency",
+    "Expertise",
+    "Public management"
+  ],
+  "summary": "Research expertise in the presidency, expertise, and public management.",
+  "bio_html": "<p>Mark Richardson is part of the legacy CLEAR Fellows network, contributing expertise in the presidency, expertise, and public management.</p>",
+  "sort_order": 120,
+  "published": true
+}

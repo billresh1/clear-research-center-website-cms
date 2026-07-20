@@ -1,0 +1,13 @@
+{
+  "title": "Selected CLEAR publications",
+  "slug": "selected-publications",
+  "type": "Scholarly record",
+  "summary": "A searchable collection of selected scholarship connected to CLEAR’s research portfolio.",
+  "url": "/publications/",
+  "link_label": "Browse publications",
+  "topics": [
+    "research"
+  ],
+  "sort_order": 40,
+  "published": true
+}

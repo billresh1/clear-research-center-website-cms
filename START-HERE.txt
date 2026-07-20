@@ -1,0 +1,28 @@
+CLEAR RESEARCH CENTER WEBSITE — START HERE
+===========================================
+
+You do not upload the subfolders one at a time. They are supposed to be subfolders.
+GitHub Desktop publishes this entire prepared repository, including every folder, in one action.
+
+FIRST-TIME SETUP
+----------------
+1. Extract the ZIP completely.
+2. Open GitHub Desktop.
+3. Choose File > Add local repository.
+4. Select the whole folder named CLEAR-Research-Center-v2.
+   Do not select src, and do not select individual files.
+5. Click Publish repository.
+6. Name it clear-research-center-website and keep it private.
+7. In the existing Netlify CLEAR project, link that GitHub repository.
+8. In CloudCannon, create a Site from the same GitHub repository and the main branch.
+
+The detailed illustrated-style instructions are in docs/SETUP.md.
+Routine editing instructions are in docs/EDITING.md.
+
+IMPORTANT
+---------
+- Keep the existing Netlify project so its custom-domain settings stay attached.
+- Do not alter GoDaddy DNS during this repository/CMS setup.
+- Do not edit the generated _site folder. CloudCannon edits the source files in src.
+- The build command is: npm run build
+- The publish directory is: _site
