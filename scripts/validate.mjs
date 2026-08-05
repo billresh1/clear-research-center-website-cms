@@ -60,6 +60,20 @@ for (const file of htmlFiles) {
   if (/<!--\s*CLEAR:/.test(html)) failures.push(`${rel}: unresolved CLEAR marker`);
   if (/\b(?:undefined|null)\b/.test(html.replace(/application\/ld\+json[\s\S]*?<\/script>/gi, ''))) warnings.push(`${rel}: contains undefined/null text; inspect manually`);
 
+  const editableProps = [...html.matchAll(/\bdata-prop(?:-[a-z-]+)?=["'](@file\[[^"']+)["']/gi)].map((match) => match[1]);
+  for (const prop of editableProps) {
+    const match = prop.match(/^@file\[([^\]]+)\]/);
+    if (!match) continue;
+    const sourcePath = match[1];
+    if (!sourcePath.startsWith('/')) {
+      failures.push(`${rel}: CloudCannon @file path must start with /: ${prop}`);
+      continue;
+    }
+    const sourceFile = path.join(root, sourcePath.replace(/^\//, ''));
+    try { await fs.access(sourceFile); }
+    catch { failures.push(`${rel}: CloudCannon @file target does not exist: ${sourcePath}`); }
+  }
+
   const ids = [...html.matchAll(/\bid=["']([^"']+)["']/gi)].map((match) => match[1]);
   const duplicates = ids.filter((id, index) => ids.indexOf(id) !== index);
   if (duplicates.length) failures.push(`${rel}: duplicate IDs: ${[...new Set(duplicates)].join(', ')}`);

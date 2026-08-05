@@ -79,8 +79,8 @@ async function writeUrl(url, content) {
   await fs.writeFile(target, content, 'utf8');
 }
 
-const editableProp = (record, key) => `@file[${record._source}].${key}`;
-const siteTextProp = (key) => `@file[data/site-text.json].${key}`;
+const editableProp = (record, key) => `@file[/src/${record._source}].${key}`;
+const siteTextProp = (key) => `@file[/src/data/site-text.json].${key}`;
 
 function editableText(tag, record, key, value, attrs = '') {
   return `<${tag} data-editable="text" data-prop="${attrEscape(editableProp(record, key))}"${attrs ? ` ${attrs}` : ''}>${htmlEscape(value ?? '')}</${tag}>`;
