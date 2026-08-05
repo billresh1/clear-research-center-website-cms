@@ -1,0 +1,24 @@
+{
+  "_schema": "default",
+  "name": "Jonathan Oxley",
+  "slug": "jon-oxley",
+  "category": "fellow",
+  "role": "CLEAR Fellow",
+  "title": "Assistant Professor",
+  "affiliation": "Georgia State University",
+  "initials": "JO",
+  "photo": "",
+  "photo_alt": "",
+  "email": "",
+  "profile_url": "",
+  "expertise": [
+    "Public Economics",
+    "Nonprofits",
+    "Behavioral Economics"
+  ],
+  "summary": "Research expertise in behavioral economics and nonprofit management.",
+  "bio_html": "<p>Jon Oxley is...</p>",
+  "sort_order": 110,
+  "featured": false,
+  "published": true
+}
