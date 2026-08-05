@@ -26,3 +26,5 @@ IMPORTANT
 - Do not edit the generated _site folder. CloudCannon edits the source files in src.
 - The build command is: npm run build
 - The publish directory is: _site
+
+IMPORTANT: Publish this prepared repository with GitHub Desktop. Do not upload its files individually through GitHub.com.
