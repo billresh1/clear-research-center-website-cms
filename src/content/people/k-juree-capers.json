@@ -1,0 +1,24 @@
+{
+  "_schema": "default",
+  "name": "K. Juree Capers",
+  "slug": "juree-capers",
+  "category": "fellow",
+  "role": "CLEAR Fellow",
+  "title": "Associate Professor",
+  "affiliation": "Georgia State University",
+  "initials": "KC",
+  "photo": "",
+  "photo_alt": "",
+  "email": "",
+  "profile_url": "",
+  "expertise": [
+    "Race and Politics",
+    "Representation",
+    "Service delivery"
+  ],
+  "summary": "Research expertise in diversity, race and politics, civil service representation, and public service delivery.",
+  "bio_html": "<p>Juree Capers is a CLEAR Fellow based at the Andrew Young School of Public Policy's Department of Public Management and Policy, where she also serves as the Graduate Programs Director and Associate Professor. </p>",
+  "sort_order": 180,
+  "featured": false,
+  "published": true
+}
