@@ -1,10 +1,12 @@
 {
   "name": "Samuel Workman",
   "slug": "samuel-workman",
-  "category": "fellow",
+  "category": "clear_fellow",
   "role": "CLEAR Fellow",
   "affiliation": "West Virginia University",
   "initials": "SW",
+  "photo": "/assets/images/sam-workman.jpg", 
+  "photo_alt": "Samuel Workman",
   "expertise": [
     "Policy data infrastructure",
     "Bureaucracy"

@@ -1,10 +1,12 @@
 {
   "name": "Matthew M. Young",
   "slug": "matthew-m-young",
-  "category": "fellow",
+  "category": "clear_fellow",
   "role": "CLEAR Fellow",
   "affiliation": "Leiden University",
   "initials": "MY",
+  "photo": "/assets/images/matt-young.jpeg", 
+  "photo_alt": "Matthew M. Young",
   "expertise": [
     "Technology",
     "Innovation",

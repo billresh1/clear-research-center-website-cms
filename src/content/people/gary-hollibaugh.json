@@ -1,10 +1,12 @@
 {
   "name": "Gary Hollibaugh",
   "slug": "gary-hollibaugh",
-  "category": "fellow",
+  "category": "clear_fellow",
   "role": "CLEAR Fellow",
   "affiliation": "University of Pittsburgh",
   "initials": "GH",
+  "photo": "/assets/images/Gary-H.jpg", 
+  "photo_alt": "Gary Hollibaugh",
   "expertise": [
     "Bureaucratic politics",
     "Methodology"

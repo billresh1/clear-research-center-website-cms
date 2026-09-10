@@ -1,10 +1,12 @@
 {
   "name": "John D. Marvel",
   "slug": "john-d-marvel",
-  "category": "fellow",
+  "category": "clear_fellow",
   "role": "CLEAR Fellow",
   "affiliation": "American University",
   "initials": "JM",
+  "photo": "/assets/images/John_Marvel.jpg", 
+  "photo_alt": "John D. Marvel",
   "expertise": [
     "Organization theory",
     "Public management"

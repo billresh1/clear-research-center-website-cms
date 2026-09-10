@@ -1,10 +1,12 @@
 {
   "name": "David E. Lewis",
   "slug": "david-e-lewis",
-  "category": "fellow",
+  "category": "clear_fellow",
   "role": "CLEAR Fellow",
   "affiliation": "Vanderbilt University",
   "initials": "DL",
+  "photo": "/assets/images/David-Lewis.jpg", 
+  "photo_alt": "David E. Lewis",
   "expertise": [
     "Presidency",
     "Administration",

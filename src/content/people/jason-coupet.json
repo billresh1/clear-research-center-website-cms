@@ -1,10 +1,12 @@
 {
   "name": "Jason Coupet",
   "slug": "jason-coupet",
-  "category": "fellow",
+  "category": "gsu_fellow",
   "role": "CLEAR Fellow",
   "affiliation": "Georgia State University",
   "initials": "JC",
+  "photo": "/assets/images/Jason-Coupet.jpeg", 
+  "photo_alt": "Jason Coupet",
   "expertise": [
     "Strategy",
     "Efficiency",

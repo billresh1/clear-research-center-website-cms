@@ -1,10 +1,12 @@
 {
   "name": "Donald F. Kettl",
   "slug": "donald-f-kettl",
-  "category": "fellow",
+  "category": "clear_fellow",
   "role": "CLEAR Fellow",
   "affiliation": "University of Maryland / Volcker Alliance",
   "initials": "DK",
+  "photo": "/assets/images/DonKettl.jpg", 
+  "photo_alt": "Donald F. Kettl",
   "expertise": [
     "Public administration",
     "Governance"

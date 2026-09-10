@@ -1,10 +1,12 @@
 {
   "name": "Jennifer L. Selin",
   "slug": "jennifer-l-selin",
-  "category": "fellow",
+  "category": "clear_fellow",
   "role": "CLEAR Fellow",
   "affiliation": "Arizona State University",
   "initials": "JS",
+  "photo": "/assets/images/Jennifer-Selin.jpg", 
+  "photo_alt": "Jennifer L. Selin",
   "expertise": [
     "Administrative law",
     "Accountability"

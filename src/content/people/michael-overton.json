@@ -1,10 +1,12 @@
 {
   "name": "Michael Overton",
   "slug": "michael-overton",
-  "category": "fellow",
+  "category": "clear_fellow",
   "role": "CLEAR Fellow",
   "affiliation": "University of Idaho",
   "initials": "MO",
+  "photo": "/assets/images/michael_overton.jpg", 
+  "photo_alt": "Michael Overton",
   "expertise": [
     "Administrative informatics",
     "Data science"

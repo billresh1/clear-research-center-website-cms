@@ -1,10 +1,12 @@
 {
   "name": "Kayla Schwoerer",
   "slug": "kayla-schwoerer",
-  "category": "fellow",
+  "category": "clear_fellow",
   "role": "CLEAR Fellow",
   "affiliation": "University at Albany, SUNY",
   "initials": "KS",
+  "photo": "/assets/images/Kayla-Sc.jpg", 
+  "photo_alt": "Kayla Schwoerer",
   "expertise": [
     "Digital government",
     "Design",

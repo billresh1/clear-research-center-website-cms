@@ -1,10 +1,12 @@
 {
   "name": "Mark Richardson",
   "slug": "mark-richardson",
-  "category": "fellow",
+  "category": "clear_fellow",
   "role": "CLEAR Fellow",
   "affiliation": "Georgetown University",
   "initials": "MR",
+  "photo": "/assets/images/Mark-Richardson.jpg", 
+  "photo_alt": "Mark Richardson",
   "expertise": [
     "Presidency",
     "Expertise",

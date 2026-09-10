@@ -1,10 +1,12 @@
 {
   "name": "Eleanor F. Woodhouse",
   "slug": "eleanor-f-woodhouse",
-  "category": "fellow",
+  "category": "clear_fellow",
   "role": "CLEAR Fellow",
   "affiliation": "University College London",
   "initials": "EW",
+  "photo": "/assets/images/e-woodhouse.png", 
+  "photo_alt": "Eleanor F. Woodhouse",
   "expertise": [
     "Delegation",
     "Comparative governance"

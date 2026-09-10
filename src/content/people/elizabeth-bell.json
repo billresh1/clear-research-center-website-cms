@@ -1,10 +1,12 @@
 {
   "name": "Elizabeth Bell",
   "slug": "elizabeth-bell",
-  "category": "fellow",
+  "category": "clear_fellow",
   "role": "CLEAR Fellow",
   "affiliation": "University of Texas at Austin",
   "initials": "EB",
+  "photo": "/assets/images/Eli_bBell.jpg", 
+  "photo_alt": "Elizabeth Bell",
   "expertise": [
     "Social equity",
     "Public management"

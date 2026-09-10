@@ -256,8 +256,9 @@ collection_groups:
 _select_data:
   person_categories:
     - director
-    - fellow
-    - student
+    - gsu_fellow
+    - clear_fellow
+    - student_fellow
     - affiliate
     - alumni
   project_types:

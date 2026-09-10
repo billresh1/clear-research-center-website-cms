@@ -1,10 +1,12 @@
 {
   "name": "Weijie Wang",
   "slug": "weijie-wang",
-  "category": "fellow",
+  "category": "clear_fellow",
   "role": "CLEAR Fellow",
   "affiliation": "University of Missouri",
   "initials": "WW",
+  "photo": "/assets/images/WeijieWang.jpg", 
+  "photo_alt": "Weijie Wang",
   "expertise": [
     "Performance",
     "Personnel",

@@ -1,0 +1,14 @@
+{
+  "name": "Yi Ming",
+  "slug": "yi-ming",
+  "category": "student",
+  "role": "Joint PhD Student, Public Policy",
+  "affiliation": "Georgia State University and Georgia Institute of Technology",
+  "initials": "YM",
+  "photo": "/assets/images/Yi-ming.jpeg",
+  "photo_alt": "Yi Ming",
+  "summary": "Yi Ming is a joint PhD student in Public Policy at Georgia State University and the Georgia Institute of Technology, contributing expertise in artificial intelligence's impact on public management and computational approaches to labor-market research.",
+  "bio_html": "<p>Yi Ming is a Joint Ph.D. student in Public Policy at Georgia State University and the Georgia Institute of Technology. Before the doctoral study, he earned a Master's in Data Science from the University of Southern California and a Master's in Business Analytics from Boston University. His research explores the impact of artificial intelligence on public management and policy, leveraging computational tools to validate and extend existing theories while developing novel perspectives. Currently, Yi is studying how political, financial, and technological dynamics influence the public sector labor market using novel data and analytical approaches. Yi is funded through the generous support of the Volcker Alliance.</p>",
+  "sort_order": 20,
+  "published": true
+}

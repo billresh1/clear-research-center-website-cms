@@ -1,10 +1,12 @@
 {
   "name": "Scott Limbocker",
   "slug": "scott-limbocker",
-  "category": "fellow",
+  "category": "clear_fellow",
   "role": "CLEAR Fellow",
   "affiliation": "United States Military Academy",
   "initials": "SL",
+  "photo": "/assets/images/scott_limbocker.jpg", 
+  "photo_alt": "Scott Limbocker",
   "expertise": [
     "Politicization",
     "Executive institutions"

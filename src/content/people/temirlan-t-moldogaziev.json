@@ -1,10 +1,12 @@
 {
   "name": "Temirlan T. Moldogaziev",
   "slug": "temirlan-t-moldogaziev",
-  "category": "fellow",
+  "category": "clear_fellow",
   "role": "CLEAR Fellow",
   "affiliation": "Indiana University",
   "initials": "TM",
+  "photo": "/assets/images/moldogaziev-t.jpg", 
+  "photo_alt": "Temirlan T. Moldogaziev",
   "expertise": [
     "Public finance",
     "Fiscal governance"
