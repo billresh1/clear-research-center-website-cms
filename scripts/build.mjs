@@ -176,7 +176,7 @@ function personCard(person) {
   const expertise = (person.expertise || []).map((item) => `<li>${htmlEscape(item)}</li>`).join('');
   const alumniBadge = person.is_alumni ? '<span class="badge">CLEAR Alumnus</span>' : '';
   return `<article class="person-card reveal">
-    <a class="person-card__initials" aria-label="View ${attrEscape(person.name)} profile" href="/people/${attrEscape(person.slug)}/">${htmlEscape(person.initials || person.name.split(/\s+/).map((part) => part[0]).slice(0, 2).join(''))}</a>
+    ${person.photo ? `<a class="person-card__photo" aria-label="View ${attrEscape(person.name)} profile" href="/people/${attrEscape(person.slug)}/"><img src="${attrEscape(person.photo)}" alt="${attrEscape(person.photo_alt || person.name)}" loading="lazy"></a>` : `<a class="person-card__initials" aria-label="View ${attrEscape(person.name)} profile" href="/people/${attrEscape(person.slug)}/">${htmlEscape(person.initials || person.name.split(/\s+/).map((part) => part[0]).slice(0, 2).join(''))}</a>`}
     ${editableText('h3', person, 'name', person.name)}
     ${editableText('p', person, 'affiliation', person.affiliation || '')}
     ${alumniBadge}
@@ -224,10 +224,10 @@ function renderDynamicSections(body, context) {
   const allNews = news.filter((item) => item.published).sort((a, b) => String(b.date).localeCompare(String(a.date)));
   const featuredNews = allNews.filter((item) => item.featured_home).slice(0, 3);
   const director = people.find((item) => item.published && item.category === 'director');
-  const alumni = people.filter((item) => item.published && item.category === 'alumni').sort((a, b) => (a.sort_order || 999) - (b.sort_order || 999));
-  const gsuFellows = people.filter((item) => item.published && item.category === 'gsu_fellow').sort((a, b) => (a.sort_order || 999) - (b.sort_order || 999));
-  const clearFellows = people.filter((item) => item.published && item.category === 'clear_fellow').sort((a, b) => (a.sort_order || 999) - (b.sort_order || 999));
-  const students = people.filter((item) => item.published && item.category === 'student').sort((a, b) => (a.sort_order || 999) - (b.sort_order || 999));
+  const alumni = people.filter((item) => item.published && item.category === 'alumni').sort((a, b) => a.name.localeCompare(b.name));
+  const gsuFellows = people.filter((item) => item.published && item.category === 'gsu_fellow').sort((a, b) => a.name.localeCompare(b.name));
+  const clearFellows = people.filter((item) => item.published && item.category === 'clear_fellow').sort((a, b) => a.name.localeCompare(b.name));
+  const students = people.filter((item) => item.published && item.category === 'student').sort((a, b) => a.name.localeCompare(b.name));
   const allPartners = partners.filter((item) => item.published).sort((a, b) => (a.sort_order || 999) - (b.sort_order || 999));
   const allEpisodes = episodes.filter((item) => item.published).sort((a, b) => String(b.date).localeCompare(String(a.date)));
   const allResources = resources.filter((item) => item.published).sort((a, b) => (a.sort_order || 999) - (b.sort_order || 999));

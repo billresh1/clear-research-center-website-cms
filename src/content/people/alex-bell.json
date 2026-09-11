@@ -1,0 +1,15 @@
+{
+  "name": "Alex Bell",
+  "slug": "alex-bell",
+  "category": "gsu_fellow",
+  "role": "Assistant Professor, Department of Economics",
+  "affiliation": "Georgia State University, Andrew Young School of Policy Studies",
+  "initials": "AB",
+  "photo": "/assets/images/alex-bell.jpg",
+  "photo_alt": "Alex Bell",
+  "expertise": ["Labor economics", "Inequality", "Job amenities"],
+  "summary": "Alex Bell is an Assistant Professor in the Department of Economics at Georgia State University's Andrew Young School of Policy Studies, contributing expertise in labor economics, inequality, and the measurement of non-wage job amenities.",
+  "bio_html": "<p>Alex Bell is an Assistant Professor in the Department of Economics at Georgia State University's Andrew Young School of Policy Studies and a Research Affiliate of CESifo and IZA@LISER. His research in labor economics focuses on inequality, innovation, and job choice, with particular emphasis on the measurement and pricing of non-wage job amenities. His published work has appeared in leading economics journals, including the American Economic Review and the Quarterly Journal of Economics.</p>",
+  "sort_order": 90,
+  "published": true
+}

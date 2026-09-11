@@ -1747,6 +1747,21 @@ h4 {
   place-items: center;
 }
 
+.person-card__photo {
+  display: block;
+  width: 46px;
+  height: 46px;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  border-radius: 14px;
+}
+
+.person-card__photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .person-card h3 {
   margin-bottom: 0.35rem;
   font-size: 1.15rem;
