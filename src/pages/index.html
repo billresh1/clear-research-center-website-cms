@@ -22,16 +22,11 @@ body_class: "home"
 <li>Scholar–practitioner partnerships</li>
 </ul>
 </div>
-<div aria-label="Andrew Young School community and a live INSIGHT+ dashboard preview" class="hero-home__visual">
+<div aria-label="Andrew Young School community and live INSIGHT+ dashboard previews" class="hero-home__visual">
+<style>.hero-home__visual{min-height:0!important;display:flex;flex-direction:column;gap:14px;width:100%;max-width:660px;justify-self:end}.hero-home__visual .hero-photo{position:relative;inset:auto;aspect-ratio:2.7/1;overflow:hidden}.hero-home__visual .hero-photo img{position:absolute;width:140%;max-width:none;height:auto;left:-11%;top:-55%}.hcard{display:block;overflow:hidden;text-decoration:none;border:1px solid rgba(255,255,255,.28);border-radius:14px;background:#0b1730;box-shadow:0 18px 40px rgba(0,10,40,.35)}.hcard__bar{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.55rem .9rem;background:#fff;color:#0a2a66;font-size:.8rem;font-weight:800}.hcard__bar span:last-child{color:#0039a6}.hcard__view{position:relative;overflow:hidden;background:#0b1730}.hcard__view iframe{position:absolute;top:0;left:0;width:1280px;height:1600px;border:0;pointer-events:none;transform-origin:top left}@media (max-width:930px){.hero-home__visual .hero-photo{aspect-ratio:2/1}.hero-home__visual .hero-photo img{top:-40%}}</style>
 <div class="hero-photo"><img alt="Students and faculty outside Georgia State University's Andrew Young School of Policy Studies" src="/assets/images/aysps-campus.jpg"/></div>
-<style>.hero-home__visual{min-height:640px}@media (min-width:931px){.hero-photo{inset:0 8% 0 2%}}@media (max-width:930px){.hero-home__visual{min-height:430px}}</style>
-<div class="dashboard-float" style="width:min(620px,94%);padding:1rem">
-<div class="dashboard-float__top">
-<div class="dashboard-float__title"><strong>INSIGHT+ job postings</strong><span>Live federal hiring dashboard</span></div>
-<span class="live-pill">Live</span>
-</div>
-<a aria-label="Open the INSIGHT+ job postings dashboard" data-offset="265" data-scaled-frame href="/insight/" style="position:relative;display:block;height:clamp(240px,22vw,320px);overflow:hidden;border:1px solid #dbe3ee;border-radius:10px;background:#f4f7fb"><iframe loading="lazy" src="https://clear-usajobs-dashboard.vercel.app/" style="position:absolute;top:0;left:0;width:1280px;height:1600px;border:0;pointer-events:none;transform-origin:top left" tabindex="-1" title="Preview of the INSIGHT+ job postings dashboard"></iframe><span style="position:absolute;right:10px;bottom:10px;padding:.4rem .75rem;border-radius:999px;background:#0039a6;color:#fff;font-size:.78rem;font-weight:800">Open the dashboard →</span></a>
-<script>(function(){var boxes=document.querySelectorAll('[data-scaled-frame]');function fit(){boxes.forEach(function(b){var f=b.querySelector('iframe');if(!f)return;var s=b.clientWidth/1280;var y=parseFloat(b.getAttribute('data-offset')||0);f.style.transform='scale('+s+') translateY(-'+y+'px)';});}fit();window.addEventListener('resize',fit);})();</script>
+<a aria-label="Open the INSIGHT+ job postings dashboard" class="hcard" href="/insight/"><div class="hcard__bar"><span>Live · INSIGHT+ job postings dashboard</span><span>Open the dashboard →</span></div><div class="hcard__view" data-scaled-frame data-w="1008" data-x="256" data-y="252" style="aspect-ratio:1008/670"><iframe loading="lazy" src="https://clear-usajobs-dashboard.vercel.app/" tabindex="-1" title="Preview of the INSIGHT+ job postings dashboard: key numbers, trend and geographic distribution"></iframe></div></a>
+<script>(function(){var boxes=document.querySelectorAll('[data-scaled-frame]');function fit(){boxes.forEach(function(b){var f=b.querySelector('iframe');if(!f)return;var w=parseFloat(b.getAttribute('data-w')||1280),x=parseFloat(b.getAttribute('data-x')||0),y=parseFloat(b.getAttribute('data-y')||0);var s=b.clientWidth/w;f.style.transform='scale('+s+') translate(-'+x+'px,-'+y+'px)';});}fit();window.addEventListener('resize',fit);})();</script>
 </div>
 </div>
 </div>
