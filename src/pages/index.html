@@ -22,14 +22,16 @@ body_class: "home"
 <li>Scholar–practitioner partnerships</li>
 </ul>
 </div>
-<div aria-label="Andrew Young School community and an illustrative INSIGHT+ data card" class="hero-home__visual">
+<div aria-label="Andrew Young School community and a live INSIGHT+ dashboard preview" class="hero-home__visual">
 <div class="hero-photo"><img alt="Students and faculty outside Georgia State University's Andrew Young School of Policy Studies" src="/assets/images/aysps-campus.jpg"/></div>
-<div class="dashboard-float">
+<style>.hero-home__visual{min-height:640px}@media (min-width:931px){.hero-photo{inset:0 8% 0 2%}}@media (max-width:930px){.hero-home__visual{min-height:430px}}</style>
+<div class="dashboard-float" style="width:min(620px,94%);padding:1rem">
 <div class="dashboard-float__top">
-<div class="dashboard-float__title"><strong>INSIGHT+ workforce trends</strong><span>Illustrative dashboard view</span></div>
-<span class="live-pill">2018–present</span>
+<div class="dashboard-float__title"><strong>INSIGHT+ job postings</strong><span>Live federal hiring dashboard</span></div>
+<span class="live-pill">Live</span>
 </div>
-<div aria-hidden="true" class="mini-chart"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+<a aria-label="Open the INSIGHT+ job postings dashboard" data-offset="265" data-scaled-frame href="/insight/" style="position:relative;display:block;height:clamp(240px,22vw,320px);overflow:hidden;border:1px solid #dbe3ee;border-radius:10px;background:#f4f7fb"><iframe loading="lazy" src="https://clear-usajobs-dashboard.vercel.app/" style="position:absolute;top:0;left:0;width:1280px;height:1600px;border:0;pointer-events:none;transform-origin:top left" tabindex="-1" title="Preview of the INSIGHT+ job postings dashboard"></iframe><span style="position:absolute;right:10px;bottom:10px;padding:.4rem .75rem;border-radius:999px;background:#0039a6;color:#fff;font-size:.78rem;font-weight:800">Open the dashboard →</span></a>
+<script>(function(){var boxes=document.querySelectorAll('[data-scaled-frame]');function fit(){boxes.forEach(function(b){var f=b.querySelector('iframe');if(!f)return;var s=b.clientWidth/1280;var y=parseFloat(b.getAttribute('data-offset')||0);f.style.transform='scale('+s+') translateY(-'+y+'px)';});}fit();window.addEventListener('resize',fit);})();</script>
 </div>
 </div>
 </div>
