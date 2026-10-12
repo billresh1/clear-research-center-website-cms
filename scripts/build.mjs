@@ -226,7 +226,7 @@ function renderDynamicSections(body, context) {
   const director = people.find((item) => item.published && item.category === 'director');
   const lastNameKey = (person) => (person.sort_name || person.name.trim().split(/\s+/).pop()).toLowerCase();
   const byLastName = (a, b) => lastNameKey(a).localeCompare(lastNameKey(b)) || a.name.localeCompare(b.name);
-  const alumni = people.filter((item) => item.published && item.category === 'alumni').sort(byLastName);
+  const alumni = people.filter((item) => item.published && ( item.category === 'alumni' || item.is_alumni)).sort(byLastName);
   const gsuFellows = people.filter((item) => item.published && item.category === 'gsu_fellow').sort(byLastName);
   const clearFellows = people.filter((item) => item.published && item.category === 'clear_fellow').sort(byLastName);
   const students = people.filter((item) => item.published && item.category === 'student').sort(byLastName);
