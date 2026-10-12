@@ -1,0 +1,20 @@
+{
+  "name": "Zhiwei Guo",
+  "slug": "zhiwei-guo",
+  "category": "alumni",
+  "is_alumni": true,
+  "role": "CLEAR Alumnus and Dashboard Engineer",
+  "affiliation": "",
+  "initials": "ZG",
+  "photo": "/assets/images/zhiwei-guo.jpg",
+  "photo_alt": "Zhiwei Guo",
+  "expertise": [
+    "Data Science",
+    "Artificial Intelligence",
+    "Data-Driven Decision Making"
+  ],
+  "summary": "CLEAR alumnus and dashboard engineer who built the interactive INSIGHT+ dashboard of U.S. federal job postings.",
+  "bio_html": "<p>Zhiwei Guo holds a Master's degree in Applied Data Science from the University of Chicago and a Bachelor's degree in Business Administration with a minor in Applied Analytics from the University of Southern California. His interests lie at the intersection of data science, artificial intelligence, and data-driven decision making, with a focus on applying computational methods to uncover actionable insights and address real-world challenges. His recent work includes developing an interactive dashboard to explore U.S. federal job postings by hiring authority, location, pay grade, and salary range. This project aims to make complex employment data more accessible and facilitate a better understanding of public-sector hiring patterns and workforce opportunities.</p>",
+  "sort_order": 100,
+  "published": true
+}
