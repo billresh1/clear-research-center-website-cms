@@ -195,7 +195,9 @@ h4 {
 .section--dark h4 {
   color: var(--white);
 }
-
+.section--dark .card h3 {
+  color: var(--panther-blue);
+}
 .section--dark a:not(.button) {
   color: #8bddff;
 }
