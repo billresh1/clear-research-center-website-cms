@@ -1,6 +1,8 @@
 import { promises as fs } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { createHash } from 'node:crypto';
+import { readFileSync } from 'node:fs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..');
@@ -273,6 +275,7 @@ function siteFooter(site) {
   return `<footer class="footer"><div class="container footer__main"><div class="footer__brand"><a class="footer__brandmark" href="/"><strong>CLEAR</strong><span>Civic Leadership Education and Research</span></a><p>${htmlEscape(site.description)}</p><a class="footer__institution" href="${attrEscape(site.school_url)}" target="_blank" rel="noopener noreferrer"><img src="/assets/images/aysps-logo.png" alt="Georgia State University, Andrew Young School of Policy Studies"></a></div><div><h3>Explore</h3><ul>${explore}</ul></div><div><h3>Platforms</h3><ul>${platforms}</ul></div><div><h3>Connect</h3><ul><li><a href="mailto:${attrEscape(site.email)}">${htmlEscape(site.email)}</a></li><li><a href="tel:${attrEscape(site.phone_href)}">${htmlEscape(site.phone)}</a></li><li><a href="${attrEscape(site.linkedin_url)}" target="_blank" rel="noopener noreferrer">LinkedIn</a></li><li><a href="/search/">Search</a></li><li><a href="/contact/">Contact CLEAR</a></li></ul></div></div><div class="container footer__bottom"><span>© <span data-year>2026</span> Georgia State University. CLEAR is hosted at the Andrew Young School of Policy Studies.</span><div class="footer__bottom-links"><a href="https://www.gsu.edu/privacy/" target="_blank" rel="noopener noreferrer">Privacy</a><a href="https://www.gsu.edu/legal-statement/" target="_blank" rel="noopener noreferrer">Legal statement</a><a href="/contact/">Accessibility contact</a></div></div></footer>`;
 }
 
+const assetVersion = (file) => createHash('md5').update(readFileSync(new URL(`../src/assets/${file}`, import.meta.url))).digest('hex').slice(0, 8);
 function layout({ site, title, description, url, bodyClass = '', navKey = '', content, structuredData = null, socialImage = null, type = 'website' }) {
   const canonical = new URL(url, site.site_url).href;
   const image = new URL(socialImage || site.default_social_image, site.site_url).href;
@@ -306,8 +309,8 @@ function layout({ site, title, description, url, bodyClass = '', navKey = '', co
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
   <script>document.documentElement.classList.add('js');</script>
-  <link rel="stylesheet" href="/assets/css/site.css">
-  <script src="/assets/js/site.js" defer></script>
+  <link rel="stylesheet" href="/assets/css/site.css?v=${assetVersion('css/site.css')}">
+  <script src="/assets/js/site.js?v=${assetVersion('js/site.js')}" defer></script>
   <script type="application/ld+json">${JSON.stringify(jsonLd).replaceAll('<', '\\u003c')}</script>
 </head>
 <body class="${attrEscape(bodyClass)}">
